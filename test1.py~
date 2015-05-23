@@ -3,7 +3,7 @@ import unittest
 class TestStringMethods(unittest.TestCase):
 
   def test_upper(self):
-      self.assertEqual('ismail'.upper(), 'ISMAIL')
+      self.assertEqual('aaa'.upper(), 'ISMAIL')
 
   def test_isupper(self):
       self.assertTrue('ISMAIL'.isupper())
